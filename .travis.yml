@@ -15,7 +15,7 @@ install:
   - svn --version | head -n 1
   - npm install -g grunt-cli
   - npm install
-
+sudo: false
 os:
   - osx
   - linux
